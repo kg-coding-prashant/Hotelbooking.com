@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking.Com</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <style>
+      *{
+    margin: 0%;
+    padding: 0%;
+}
+.head {
+        background-image: url(images/simple\ background.png);
+        width: 100%;
+        height: 110px;
+        background-size: cover;
+        color: white;
+        border-radius: 0px;
+       
+      }
+      .img{
+        height:18px;
+        width:18px;
+        border-radius: 50%;
+      }
+      
+      .ques{
+        color:white;
+      }
+      .items{
+        display: flex;
+        align-items: center;
+        margin-left:800px;
+        gap: 20px;
+        list-style: none;
+        margin-top: -2%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      button{
+        width: 75px;
+        height:30px;
+        border-radius: 6px;
+        border: none;
+      }
+      .logo{
+        margin-left: 21%;
+        padding: 1%;
+       font-weight: bold;
+       font-size: larger;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+       
+      }
+      .second{
+        display: flex;
+        margin-left: 23%;
+        align-items: center;
+        list-style: none;
+        
+      }
+      .sec-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap:50px;
+        margin-left: 20px;
+        padding: 2%;
+       
+      }
+      .btn{
+        background-color: blue;
+        border: 1px solid white;
+        border-radius: 17px;
+        color: white;
+        height:40px;
+        width:90px;
+        font-weight: bold;
+      }
+      .main {
+        background-image: url(images/main\ image.png.jpg);
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        
+      }
+      .offer{
+        color: white;
+        margin-left: 300px;
+        padding: 2%;
+        font-size: medium;
+        word-spacing: 3px;
+        
+      }
+      .margin{
+        margin-top: 20px;
+      }
+      .para{
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 320px;
+        color:white;
+        word-spacing: 3px;
+        padding: 7px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .year{
+        margin-left: 330px;
+        color: white;
+        font-size: 15px;
+      }
+      .end-btn{
+        margin-left: 325px;
+        margin-top: 45px;
+        box-shadow: 0px 0px 9px solid blue;
+        border-radius: 7px;
+      
+       
+       border-radius:0px;
+       width: 110px;
+       height:40px;
+       color: white;
+       background-color:blue;
+
+      }
+      .mid-btn1{
+        width: 320px;
+        border-radius: 0%;
+        margin-left: 500px;
+        height:50px;
+        border: 3px solid gold;
+        font-weight: bold;
+         text-align: left;
+         padding-left: 5px;
+         margin: -4px;
+         
+        
+      }
+      .mid-btn2{
+        width: 320px;
+        border-radius: 0%;
+        /* margin-left: 0px; */
+        height:50px;
+        border: 3px solid gold;
+        font-weight: bold;
+         text-align: left;
+         padding-left: 5px;
+         margin: -4px;
+         
+       
+      }
+      .mid-btn3{
+        width: 240px;
+        border-radius: 5px;
+        /* margin-left: 0px; */
+        height:50px;
+        border: 3px solid gold;
+       font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+        margin: -4px;
+       
+      }
+      .mid-button{
+        margin-left: 200px;
+        /* margin-bottom: -3%; */
+        margin-top: 30px;
+       
+      }
+      
+      .search{
+        width:100px;
+        background-color:blue;
+        color: white;
+        height: 50px;
+        border-radius: 5px;
+        border: 3px solid gold ;
+      }
+      .bi-app{
+         color: grey;
+         margin-left: 200px;
+        
+        
+      }
+      .light{
+        margin-top: 20px;
+        margin-left:15px;
+        
+      }
+      h1{
+        margin-top: 180px;
+        margin-left: 200px;
+      }
+      p{
+        margin-left: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+    
+       
+     
+   .fun{
+    height:120px;
+    width:120px;
+    margin-top: -17%;
+    margin-left: 300px;
+   }
+  .button1{
+     margin-left: 200px;
+     border: 1px solid grey;
+     width: 1000px;
+     height:130px;
+     border-radius: 5px;
+     margin-top: 20px;
+     box-shadow: 0px 0px  9px;
+
+     
+  }
+  .fun-img{
+    height:110px;
+    width:110px;
+    margin-top: 7px;
+    margin-left: 9px;
+  }
+
+ 
+  h3{
+   padding-top: 25px;
+   margin-left: 15px;
+  }
+  h5{
+    padding: 10px;
+     margin-left: 10px;
+  }
+  .off{
+    height:60px;
+    width:60px;
+   
+  }
+  .exp{
+    padding-top: 5px;
+    margin-left: 20px;
+    width:80px;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+  }
+ .trip{
+  margin-left: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 45px;
+  padding: 7px;
+  
+ }
+ .img-1{
+  height:250px;
+  width:480px;
+  padding-top: -5px;
+  margin-left: 200px;
+  border-radius: 15px;
+  
+  
+
+
+ }
+ .img-2{
+  height:250px;
+  width:480px;
+  margin-left: 60px;
+   border-radius: 15px;
+   
+  
+ }
+ .images1{
+  height:220px;
+  width:320px;
+  padding-top: -1px;
+  margin-left: 210px;
+  border-radius: 15px;
+
+  
+ }
+ .images2{
+  height:220px;
+  width:320px;
+  padding-top: 5px;
+  margin-left: 20px;
+  border-radius: 15px;
+ }
+ .images3{
+  height:220px;
+  width:320px;
+  padding-top: 5px;
+  margin-left: 20px;
+  border-radius: 15px;
+ }
+ .tripsee,.best{
+  margin-left: 3px;
+  line-height: 25px;
+ }
+ .R{
+  height:40px;
+  width:90px;
+  margin-left: 12px;
+  background-color: lightblue;
+  border-radius: 20px;
+  border: 1px solid skyblue;
+ }
+ 
+ .O,.C,.B{
+   margin-left: 9px;
+   background-color: white;
+   
+ }
+ .R:hover,.O:hover,.C:hover,.B:hover{
+  background-color: paleturquoise;
+ }
+.smallest-img{
+  display: flex;
+  margin-left: 200px;
+  padding: 1%;
+  gap:45px;
+ }
+.common1{
+  background-image: url(images/goa.jpg);
+  height: 130px;
+  width: 130px;
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+ .common2{
+  background-image: url(images/candolim.jpg);
+  height: 130px;
+  width: 130px;
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px;
+   text-align: center;
+  font-weight: bold;
+ color:white;
+
+}
+ .common3{
+  background-image: url(images/panaji.png);
+  height: 130px;
+  width: 130px;
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px;
+ text-align: center;
+  font-weight: bold;
+color:white;
+}
+ .common4{
+  background-image: url(images/south\ goa.png);
+  height: 130px;
+  width: 130px;
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px;
+   text-align: center;
+  font-weight: bold;
+  color:white;
+}
+ .common5{
+  background-image: url(images/goa9999.png);
+  height: 130px;
+  width: 130px;
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px;
+   text-align: center;
+  font-weight: bold;
+  color:white;
+}
+ .common6{
+  background-image: url(images/cat.png);
+  height: 130px;
+  width: 130px;
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px;
+   text-align: center;
+  font-weight: bold;
+  color:white;
+}
+.places{
+  display: flex;
+  margin-left: 200px;
+}
+.get{
+  padding-bottom: 13px;
+  margin-top: 20px;
+}
+.marg{
+  margin-top: 20px;
+}
+.get2{
+  background-image: url(images/gettyimages-1890716390.jpg);
+  height:370px;
+  width: 500px;
+  background-size: cover;
+  border-radius: 9px ;
+ 
+  
+}
+.tree{
+  background-image: url(images/tree.png);
+  background-size: cover;
+  height:200px;
+  width:250px;
+  border-radius: 9px ;
+}
+.lights{
+  background-image: url(images/light.webp);
+  background-size: cover;
+  height:200px;
+  width:250px;
+  border-radius: 9px ;
+}
+.parent{
+  display: flex;
+  margin-left: 200px;
+  gap:30px;
+
+ 
+}
+.City{
+    color: white;
+    margin-top: 290px;
+    margin-left: 5px;
+}
+.Ring{
+  color: white;
+  margin-left: 1px;
+}
+.jap{
+  margin-top: 190px;
+  margin-left: 4px;
+}
+.dis{
+  margin-top: 210px;
+}
+.style{
+  margin-left: 2px;
+  font-family:cursive;
+  color: gray;
+}
+.kit{
+  height: 60px;
+  width:60px;
+}
+.houses{
+  padding-top: 5px;
+   display: flex;
+   margin-left: 200px;
+   gap:50px;
+}
+.dom{
+   height:40px;
+   width:100px;
+   border-radius: 9px;
+   background-color: skyblue;
+   border: 1 px solid lightblue;
+}
+.int{
+  background-color: white;
+}
+.int:hover{
+  background-color: grey;
+  border-radius: 9px;
+   height:40px;
+   width:100px;
+
+}
+.hotel{
+  display: flex;
+  gap:110px;
+  margin-left: 270px;
+  
+  margin-top: 20px;
+}
+.hotel li{
+  list-style: none;
+  line-height: 34px;
+  font-size: 13px;
+  color:gray;
+}
+.plus{
+  margin-left: 200px;
+  padding-top: 7px;
+  color: blue;
+}
+.uul{
+  display: flex;
+  margin-left: 200px;
+  gap:20px;
+  font-size: 10px;
+  
+}
+
+
+.uul li{
+  list-style: none;
+  
+ 
+}
+
+.guides{
+  display: flex;
+  margin-left: 200px;
+  list-style: none;
+  font-size: 10px;
+  gap:20px;
+  line-height:28px;
+}
+.footer{
+  background-image: url(images/istockphoto-1364490996-612x612.jpg);
+  height:370px;
+  width:100%;
+  display: flex;
+ 
+}
+.foot1{
+  margin-left: 150px;
+  margin-top: 20px;
+  line-height: 30px;
+  /* list-style: none; */
+  color: gray;
+}
+.black{
+  color: black;
+}
+
+.part{
+  background-image: url(images/istockphoto-1364490996-612x612.jpg);
+  height:70px;
+  width:100%;
+}
+.part h5{
+  /* background-image: url(images/istockphoto-1364490996-612x612.jpg); */
+  color: gray;
+  margin-left: 380px;
+  
+}
+.end{
+  display: flex;
+  gap:37px;
+  margin-left: 400px;
+}
+.end li{
+  list-style: none;
+  color:blue;
+  
+}
+.ka{
+  background-color: orange;
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  border-left: 1px;
+}
+
+
+.scoreBarImg{
+  height:180px;
+  width: 290px;
+  box-shadow:  6px;
+  background-image: url(images/sevenhouse.png);
+  
+  
+}
+.blue{
+  background-color: aqua;
+ 
+}
+.green{
+  background-color: yellowgreen;
+
+}
+.pink{
+  background-color: crimson;
+}
+.lightblue{
+  background-color: dodgerblue;
+}
+
+.scoreBarImg1{
+  height:180px;
+  width: 290px;
+  box-shadow:  6px;
+  background-image: url(images/sechouse.png);
+  
+  
+}
+.scoreBarImg2{
+  height:180px;
+  width: 290px;
+  box-shadow:  6px;
+  background-image: url(images/thirhouse.png);
+  
+  
+}
+.scoreBarImg3{
+  height:180px;
+  width: 290px;
+  box-shadow:  6px;
+  background-image: url(images/eighthouse.png);
+  
+  
+}
+.scoreBarImg4{
+  height:180px;
+  width: 290px;
+  box-shadow:  6px;
+  background-image: url(images/house.png);
+  
+  
+}
+.scoreBarImg5{
+  height:180px;
+  width: 290px;
+  box-shadow:  6px;
+  background-image: url(images/fourhouse.png);
+  
+  
+}
+.scoreBarImg5{
+  height:180px;
+  width: 290px;
+  box-shadow:  6px;
+  background-image: url(images/fourhouse.png);
+  
+  
+}
+.srcoll{
+  display: flex;
+  margin-left: 60px;
+  margin-top: 9px;
+  gap:20px;
+}
+.gen{
+  margin-top: 190px;
+  background-color: blue;
+  color:white;
+  line-height:5px;
+  margin-left: 4px;
+}
+.hot{
+  padding-top: 1%;
+  margin-left: 2px;
+  line-height:20px ;
+}
+.in{
+  margin: 0px;
+  color: gray;
+  line-height: 3px;
+}
+.point{
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  color: white;
+  margin-left: 4px;
+  margin-bottom: 3px;
+  background-color: green;
+}
+.shad{
+   box-shadow:0px 0px 7px;
+}
+.trend{
+   margin-top: 20px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       
+        <div class="head">
+             <div class="logo">Booking.com</div>
+        <ul class="items">
+            <li></li>
+            <li>INR</li>
+            <li><img src="images/tiranga.png" class="img"></li>
+            <li><i class="bi bi-question-circle" class="ques"></i></li>
+             <li> List your property</li>
+            <li><button>Register</button></li>
+            <li><button>Sign in</button></li>
+        </ul>
+         <div class="second">
+            <li><button class="btn"><i class="bi bi-person-wheelchair"></i>Stays</button></li>
+            <div class="sec-items"> 
+            <li ><i class="bi bi-airplane-engines-fill"></i>Flights</li>
+            <li><i class="bi bi-backpack4-fill"></i>Flight + Hotel</li>
+            <li><i class="bi bi-car-front-fill"></i>Car rentals</li>
+            <li><i class="bi bi-award-fill"></i>Attractions</li>
+            <li><i class="bi bi-ev-front"></i>Airport taxis</li>
+        </div>
+           
+        </div>
+        </div>
+       
+    </div>
+
+    <div class="main">
+        <div>
+         <h2 class="offer">Offer ends in 4 days</h2>
+        
+        <p class="para">
+          Save up to 35% with<br>
+          Black Friday Deals
+        </p>
+        <p class="year">Set your travel plans in motion.Book by Dec 4,2024<br>
+        for stays until the end of 2025</p>
+       
+       
+        <button class="end-btn">Explore Deals</button>
+        
+      </div>
+      <div class="mid-button">
+        <button class="mid-btn1"><i class="bi bi-car-front-fill"></i>Where are you going?</button>
+      <button class="mid-btn2"><i class="bi bi-calendar-date-fill"></i>Check-in-Date -- Check-out-Date</button>
+      <button class="mid-btn3"><i class="bi bi-person"></i>2adults . 0children . 1room</button>
+       <button class="search">Search</button>
+       
+       </div>
+       <div class="content">
+        <div class="light"><i class="bi bi-app " ></i>I'm looking for flight</div>
+
+          <div class="srcoll">
+            <div class="scoreBarImg">
+              <div class="shad"><button class="gen">Genius</button>
+              <h3 class="hot">Hotel Aerostay IGI<br>
+               Airport Delhi</h3>
+               <h5 class="in">New Delhi,India</h5>
+               <button class="point">9.7</button>Exceptional .46 Reviews
+                
+              </div>
+            </div>
+            <div class="scoreBarImg1">
+             <div class="shad">
+              <button class="gen">Genius</button>
+              <h3 class="hot">Treebo Raj Palace
+                Varanasi India<br>
+             </h3>
+               <h5 class="in">Varanasi,India</h5>
+               <button class="point">9.7</button>Fabulous .336 Reviews
+                
+             </div>
+            </div>
+            <div class="scoreBarImg2">
+              <div class="shad">
+              <button class="gen">Genius</button>
+              <h3 class="hot">Hotel Sahibs the<br>
+               Lighthouse Delhi</h3>
+               <h5 class="in">Agra,India</h5>
+               <button class="point">9.7</button>Good .46 Reviews
+                
+             </div>
+            </div>
+            <div class="scoreBarImg3">
+               <div class="shad">
+              <button class="gen">Genius</button>
+              <h3 class="hot">Hotel Prithvi Palace<br>
+               lgi Airport</h3>
+               <h5 class="in">New Delhi,India</h5>
+               <button class="point">9.7</button>Exceptional .40 Reviews
+                
+             </div>
+            </div>
+            <div class="scoreBarImg4">
+              <div class="shad">
+              <button class="gen">Genius</button>
+              <h3 class="hot">Hotel Aerostay IGI<br>
+               Airport Delhi</h3>
+               <h5 class="in">New Delhi,India</h5>
+               <button class="point">9.7</button>Exceptional .46 Reviews
+                
+             </div>
+            </div>
+            <div class="scoreBarImg5">
+              <div class="shad">
+              <button class="gen">Genius</button>
+              <h3 class="hot">Hotel Limited IGI<br>
+               Airport Delhi</h3>
+               <h5 class="in">New Delhi,India</h5>
+               <button class="point">9.7</button>Fabulous .46 Reviews
+                
+             </div>
+            </div>
+            
+          </div>
+
+         
+       
+       
+
+        <h1>Offers</h1>
+        <p>Promotion, deals and special offers for you</p>
+       </div>
+
+
+       <div class="large-btn">
+       
+       <div class="button1"><h3 > Up to 20% off attractions<br> 
+       <h5>Make exploring easy with discounts on top experiences</h5> </h3>
+        <button class="exp">Explore</button> 
+       </div>
+        <div class="kalka">
+          <h1 class="trend">Trending destinations</h1>
+          <h5 class="trip"> Most popular choices for travellers from India</h5>
+          
+        </div>
+       </div>
+       <img src="images/taj.png" alt="" class="img-1">
+       
+       <img src="images/high.png" alt="" class="img-2">
+
+        <div class="small-img">
+          <img src="images/nature.png" alt="" class="images1">
+           <img src="images/color.png" alt="" class="images2">
+            <img src="images/building.png" alt="" class="images3">
+        </div>
+           
+         <div class="trip">
+          <h3 class="tripsee"> What type of trip are you planning? </h3>
+         <p class="best">Find destinations in India that best match your interests</p>
+         <button class="R"><i class="bi bi-balloon-heart"></i>Romance</button>
+         <button class="O"><i class="bi bi-bicycle"></i>outdoors</button>
+         <button class="C"><i class="bi bi-buildings-fill"></i>city</button>
+         <button class="B"><i class="bi bi-droplet-fill"></i>Beech</button>
+         
+       
+        </div>
+
+
+
+
+
+
+        <div class="explore"><h1 class="margin">Explore India
+          </h1>
+          <p>These popular destinations have a lot to offer</p>
+        </div>
+
+       
+        <div class="smallest-img">
+          
+          <div class="common1">South Goa <br>1,161 properties</div> 
+          <div class="common2">North Goa <br> 4,521 properties</div>
+          <div class="common3">Candalim<br>2,311 Properties</div>
+          <div class="common4">Panaji<br>7,612 properties</div>
+          <div class="common5">Goa<br>11,234 Properties</div>
+          <div class="common6">Patali<br>1,161 properties</div>
+
+       
+       </div>
+
+       <div class="inspire">
+        <div>
+          <h1 class="get">Get Inspiration for your next Journey</h1>
+          
+        </div>
+
+       <div class="parent">
+         <div class="get2">
+          <h2 class="City">New Year'Eve in New York City</h2>
+          <p class="Ring">Ring in the new year with iconic moments and fogetable memories in New<br>
+          York City</p>
+         </div>
+          <div class="tree"><h3 class="jap">6 Best ryokans in japan to<br>
+            rejuvenate yourself.</h3>
+           
+            <h5 class="style"> Discover unmissable ryokans to relax and unwind in style
+      </h5>
+         </div>
+         <div class="lights"><h3 class="jap">7 best Places in Asia to celebrate<br>
+          Christmas.</h3>
+           
+            <h5 class="style"> Discover  the Shimmering to relax and unwind in <br>
+              in Asia holiday's season
+      </h5>
+          
+         </div>
+       </div>
+         <h1 class="marg">Popular with travellers from India</h1>
+         <div class="houses">
+          <button class="dom">Domestic cities</button>
+           <button class="int">International cities</button>
+             <button class="int">Regions</button>
+               <button class="int">Countries</button>
+                 <button class="int">Places to stay</button>
+         </div>
+         <div class="hotel">
+          <ul>
+            <li>Srinagar hotel</li>
+            <li>NewDelhi hotel</li>
+            <li>Hyderabad hotel</li>
+            <li>Rishikesh hotel</li>
+            <li>jammu kashmir hotel</li>
+            
+          </ul>
+
+          <ul>
+            <li>Mumbai hotel</li>
+            <li>Ayodhya hotel</li>
+            <li>Banglore hotel</li>
+            <li>Shimla hotel</li>
+            <li>Pune hotel</li>
+          </ul>
+
+          <ul>
+            <li>Ooty hotel</li>
+            <li>Puri hotel</li>
+            <li>Varanasi hotel</li>
+            <li>Mysore hotel</li>
+            <li>Cochin hotel</li>
+          </ul>
+
+          <ul>
+            <li>Chennai hotel</li>
+            <li>Varkala hotel</li>
+            <li>Gurgaon hotel</li>
+            <li>Kolkata hotel</li>
+            <li>Mumbai hotel</li>
+          </ul>
+
+          <ul>
+            <li>Lonavala hotel</li>
+            <li>Pududcherry hotel</li>
+            <li>Munnar hotel</li>
+            <li>Manali hotel</li>
+            <li>Udaipur hotel</li>
+          </ul>
+         </div>
+        <p class="plus"> + Show More</p>
+        <br><br>
+        <hr>
+        <div class="finally">
+          <ul class="uul">
+            <li >Countries</li>
+            <li>.Regions</li>
+            <li>.Cities</li>
+            <li>.Districts</li>
+            <li>.Airports</li>
+            <li>.Hotels</li>
+            <li>.Places of interest</li>
+            <li>.Apartments </li>
+            <li>.Resorts</li>
+            <li>.Alldestinations</li>
+            <li>.Unique places to stay</li>
+            <li>.Guest houses</li>
+            <li>.Villas</li>
+            <li>.Hostels</li>
+            <li>.B&Bs</li>
+
+           
+            
+          </ul>
+
+           <div class="png">
+              <ul class="guides">
+              <li>All flight destinations</li>
+              <li>All car hire locations</li>
+              <li>All holiday destinatons</li>
+              <li>Guides</li>
+              <li>Discover</li>
+              <li>Reviews</li>
+              <li>Discover monthly Stays</li>
+            </ul>
+            </div>
+        </div>
+         <div class="footer">
+           <div class="foot1">
+            <ul>
+              <h4 class="black">Support</h4>
+            <li>Coronavirus (COVID-19) FAQs</li>
+            <li>Manage your trips</li>
+            <li>Contact customer services</li>
+            <li>Safety resources centre</li>
+            
+           </ul>
+          </div>
+            <div class="foot1">
+              <ul>
+                <h4 class="black">Discover</h4>
+                <li>Genius loyality programme</li>
+                <li>Seasonal and holiday deals</li>
+                <li>Travel articles</li>
+                <li>Booking.com for business</li>
+                <li>Traveller review awards</li>
+                <li>Car hire</li>
+                <li>Flight finder</li>
+                <li>Resturant reservations</li>
+              </ul>
+            </div>
+            <div class="foot1">
+              <h4 class="black">Terma and Settings</h4>
+              <li>Privacy & Cookies</li>
+              <li>Terma and Conditions</li>
+              <li>Grievance officer</li>
+              <li>Moderns slavery Statement</li>
+              <li> Human Right Statement</li>
+            </div>
+            <div class="foot1">
+              <h4 class="black">Partners</h4>
+              <li>Extranet login</li>
+              <li>Partner help</li>
+              <li>List your property</li>
+              <li>Become a affilitate</li>
+              
+            </div>
+           
+          
+           
+          </div>
+            
+         
+       </div>
+
+       <div class="part">
+        <h5>Booking.com is part of Booking Holdings inc, the world leader in online travel and related services<br>
+        copyright 1996-2024 Booking.com
+        
+      </h5>
+       <div>
+        <ul class="end">
+          <li>Booking.com</li>
+          <li>priceline*</li>
+          <li class="ka">K<span class="blue">A</span><span class="green">Y</span><span class="pink">A</span><span class="lightblue">K</span></li>
+          <li>agoda</li>
+          <li>OpenTable</li>
+        </ul>
+       </div>
+
+        
+       </div>
+
+       
+ 
+          </div>
+          
+          
+
+
+              
+         
+       
+   </body>
+</html>
